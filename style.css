@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+body {
+    display: grid;
+    grid-template-rows: 30px 1fr 1fr 10fr;
+    height: 100%
+}
+.top {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: .75rem;
+}
+.middle {
+    background-color: hotpink;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.bottom {
+    
+    background-color: teal;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1.25fr;
+}
+.bottom-col-1 {
+    background-color: indianred;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+.bottom-col-2 {
+    background-color: indigo;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.bottom-col-3 {
+    background-color: lawngreen;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.features {
+    background-color: lightblue;
+    font-size: 3rem;
+}
+.newswire {
+    background-color: lightsalmon;
+}
+.av-club {
+    font-size: 40px;
+    font-weight: 1000;
+}
